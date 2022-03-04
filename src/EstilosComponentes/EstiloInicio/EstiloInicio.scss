@@ -1,0 +1,65 @@
+.inicio{position: relative; border-bottom: 5px solid black;}
+.infoInicio{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+        &__img{width: 100%; height: 100%; object-fit: cover;}
+}
+.infoIniciotexto{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+        &__sub{font-size: 1.2em; padding: 5px;}
+        &__titulo{
+            font-size: 2.5em;
+    line-height: 1.5;
+    background-color: whitesmoke;
+    margin: 15px 0;
+    width: 70%;
+    text-align: center;
+        }
+        &__parrafo{font-size: 1.1em; font-weight: 300; margin: 10px 0; background-color: gainsboro; padding: 5px;}
+        &__btn{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 120px;
+            height: 40px;
+            border:none;
+            background-color: black;
+            color: white;
+            margin: 20px 5px;
+            cursor: pointer;
+            box-shadow:0 0 0 2em rgba(255,255,255,0);
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            &:hover{
+                    animation: pulse .6s ease-in-out;
+                    -webkit-animation: pulse .6s ease-in-out;
+            }
+        }
+}
+@keyframes pulse{0%{box-shadow:0 0 rgb(0, 0, 0)}}
+.sigSeccion{
+     position: absolute;
+      bottom: 5%;
+       left: 50%;
+        animation:sig 1s linear infinite ;
+         -webkit-animation:sig 1s linear infinite ;
+        font-size: 1.2em;
+        }
+@keyframes sig {
+    0%{ transform:translateY(0) ; -webkit-transform:translateY(0) ; -moz-transform:translateY(0) ; -ms-transform:translateY(0) ; -o-transform:translateY(0) ; }
+    50%{ transform:translateY(10px) ; -webkit-transform:translateY(10px) ; -moz-transform:translateY(10px) ; -ms-transform:translateY(10px) ; -o-transform:translateY(10px) ; }
+    100%{ transform:translateY(0) ; -webkit-transform:translateY(0) ; -moz-transform:translateY(0) ; -ms-transform:translateY(0) ; -o-transform:translateY(0) ; }
+}   

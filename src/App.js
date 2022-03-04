@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import Header from "./ComponentesJS/Header";
+import Inicio from "./ComponentesJS/Inicio";
+import Proyectos from "./ComponentesJS/Proyectos";
+import Sobre from "./ComponentesJS/Sobre";
+import Servicios from "./ComponentesJS/Servicios";
+import Herramientas from './ComponentesJS/Herramientas';
+import Formulario from './ComponentesJS/Formulario';
+import Footer from './ComponentesJS/Footer';
+import './EstilosComponentes/Medias/Medias.scss';
 
+
+AOS.init();
+
+library.add(fas);
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Header></Header>
+    <Inicio></Inicio>
+    <Sobre></Sobre>
+    <Proyectos></Proyectos>
+    <Servicios></Servicios>
+    <Herramientas></Herramientas>
+    <Formulario></Formulario>
+    <Footer></Footer>
+    </>
   );
 }
 

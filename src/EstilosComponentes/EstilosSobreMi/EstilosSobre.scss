@@ -1,0 +1,104 @@
+.sobreInfo{width: 100%; overflow: hidden;}
+.sobreInfoTexto__titulo{
+    font-size: 1.5em;
+    font-weight: 800;
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+}
+.sobreInfoTexto{
+    padding: 20px;
+}
+.sobreInfoTexto__parrafo{
+    margin: 10px 0;
+    font-weight: 300;
+    font-size: 1em;
+}
+.sobreInfoImg{
+    position: relative;
+    width: 100%;
+    height: 240px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 0 0 4px 3px black;
+    background-color: white;
+    margin: auto;
+    &__img{
+            width: 100%;
+            height: 100%;
+            border: 1px solid black;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+    }
+}
+
+.infoBtns{
+    width: 100%;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    &__btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 10px;
+        width: 140px;
+        height: 40px;
+        border: none;
+        background-color: rgba(0, 0, 0, .73);
+        color: white;
+        font-size: 1.1em;
+        font-weight: 500;
+        cursor: pointer;
+        transition:.6s ease;
+        -webkit-transition:.6s ease;
+        -moz-transition:.6s ease;
+        -ms-transition:.6s ease;
+        -o-transition:.6s ease;
+        position: relative;
+        overflow: hidden;
+        &:hover{
+            transform: translateY(-5px);
+            -webkit-transform: translateY(-5px);
+            -moz-transform: translateY(-5px);
+            -ms-transform: translateY(-5px);
+            -o-transform: translateY(-5px);
+            box-shadow: 0 5px 3px 0 rgb(255, 255, 255);
+}
+        &:hover::before{
+            opacity: 1;
+            transform: scale(1);
+            }
+        &::before{
+            content: attr(data-content);
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;  
+            justify-content: center;
+            align-items: center;
+            width: 140px;
+            height: 40px;
+            color: #ffff;
+            background-color: #000000;
+            opacity: 0;
+            transform: scale(5);
+            transition: transform   .5s, opacity .5s;
+        }
+    }
+}
+.sobrePerfil{
+    display: none;
+    width: 50%;
+    height: 100%;
+        img{width: 100%; height: 100%; object-fit: contain;}
+}
