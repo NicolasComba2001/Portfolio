@@ -32,7 +32,7 @@ function ContenedorProyectos(){
 
         ></ListadoProyectos>
         <ListadoProyectos
-        img={"ProyectoIMG/Publicidad-emprendimientos.png"}
+        img={"ProyectoIMG/publicidad-emprendimientos.png"}
         titulo="Mic-Emprendimiento"
         descripcion="Sube tus micro-emprendimientos / emprendimiento con el fin de crecer tus visitas organicas y aumentar tu negocio!. "
         git=""
