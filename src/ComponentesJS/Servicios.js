@@ -21,15 +21,15 @@ export default function Servicios() {
         <article className="servicios-grid">
         <CardServicios
         tarea="Desarrollo Web"
-        descripcion="Si puedes pensarlo, puedes crearlo! Desarrollo con entusiasmo y alegria paginas de todo tipo, con los diseños de tus sueños."
+        descripcion="¡Si puedes pensarlo, puedes crearlo! Desarrollo con entusiasmo y alegría páginas de todo tipo, con los diseños de tus sueños."
         img={
           "ServiciosIMG/DesarrolloWeb.svg"
         }
       ></CardServicios>
       <CardServicios
         tarea="Mantenimiento"
-        descripcion="Cada sitio web, necesita de un mantenimiento y cuidado semanal o mensual, ya sea para actualizaciones minimas o grandes. Por eso contamos
-        con atencion al cliente las 24 horas del dia."
+        descripcion="Cada sitio web, necesita de un mantenimiento y cuidado semanal o mensual, ya sea para actualizaciones mínimas o grandes. Por eso contamos
+        con atención al cliente las 24 horas del día."
         img={
           "ServiciosIMG/MantenimientoWeb.svg"
         }
@@ -37,15 +37,15 @@ export default function Servicios() {
       <CardServicios
         tarea="Diseño Responsive"
         descripcion="Todos los sitios webs, contaran con este 'Diseño Responsive', el cual consta de hacer que cada sitio web, 
-        se adapte a resoluciones desde un SmartPhone hasta una computadora de escritorio"
+        se adapte a resoluciones desde un Smartphone hasta una computadora de escritorio"
         img={
           "ServiciosIMG/DisenoResponsive.svg"
         }
       ></CardServicios>
       <CardServicios
         tarea="Tecnicas S.E.O"
-        descripcion="Lo mas importante para un sitio web, es contar con un gran trafico de personas que esten interesadas en tu pagina. Por eso
-        aplicamos las mejores y mas limpias tecnicas para que tu sitio sea increible."
+        descripcion="Lo más importante para un sitio web, es contar con un gran tráfico de personas que estén interesadas en tu página. Por eso
+        aplicamos las mejores y más limpias técnicas para que tu sitio sea increíble."
         img={
           "ServiciosIMG/Seo.svg"
         }

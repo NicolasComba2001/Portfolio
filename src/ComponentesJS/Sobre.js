@@ -8,12 +8,13 @@ export default function Sobre() {
        
        <section className="sobreInfo-flex">
             <article className="sobreInfoTexto">
-                <h3 className="sobreInfoTexto__titulo" data-aos="fade-right" data-aos-duration="800">UN POCO DE MI!</h3>
+                <h3 className="sobreInfoTexto__titulo" data-aos="fade-right" data-aos-duration="800">UN POCO DE MI</h3>
                 <p className="sobreInfoTexto__parrafo" data-aos="fade-left" data-aos-duration="1000">
-                    Hola! Soy Nicolas, desde mis 17 años de edad he estado interesado
-                    por el desarrollado web front-end, siendo asi, mi principal objetivo
-                    estudiar todas y cada una de las tecnologias mas
+                    ¡Hola! Soy Nicolas, desde mis 17 años de edad he estado interesado
+                    por el desarrollado web front-end, siendo así, mi principal objetivo
+                    estudiar todas y cada una de las tecnologías mas
                     demandadas en el mundo del desarrollo web.
+
                 </p>
             </article>
             <article className="sobreCont-flex">
@@ -38,9 +39,10 @@ export default function Sobre() {
             <article className="sobreInfoTexto" data-aos="fade-left" data-aos-duration="1000">
             <h3 className="sobreInfoTexto__titulo" data-aos="fade-right" data-aos-duration="800">SIEMPRE ACTUALIZADO!</h3>
                 <p className="sobreInfoTexto__parrafo">
-                Cada vez mas, el mundo avanza y la tecnologia tambien, por eso hay que mantenerse
-                siempre al pendiente de todas las actualizaciones o tecnologias nuevas que salen a la luz. Si quieres,
-                puedes ver mi <abbr title="CURRICULUM VITAE">CV</abbr> / Hoja de vida o mi test de aptitudes.
+                Cada vez más, el mundo avanza y la tecnología también, por eso hay que mantenerse
+                siempre al pendiente de todas las actualizaciones o tecnologías nuevas que salen a la luz. Si quieres,
+                puedes ver mi
+             <abbr title="CURRICULUM VITAE">CV</abbr> / Hoja de vida o mi test de aptitudes.
                 </p>
             </article>
             <article className="sobreCont-flex">

@@ -26,25 +26,31 @@
     .infoIniciotexto__titulo{
         width: 60%;
     }
+    .proyectos-flex{display: grid;
+        grid-template-columns: repeat(2,1fr);}
     .infoIniciotexto__parrafo{width: 75%;}
     .menuListBox__ancla{font-size: 2em;}
 }
+
 
 @media screen and(min-width: 1300px) {
     .infoIniciotexto__titulo{font-size: 4em; width: 40%;}
     .infoIniciotexto__parrafo{font-size: 1.5em; width: 50%;}
     .infoIniciotexto{left: 52%;}
     .menuListBox__ancla{font-size: 3em;}
-    .sobreInfo-flex, .sobreInfo-flex-reverse{height: 526px; padding: 0; flex-direction: column; justify-content: center;}
+    .sobreInfo-flex, .sobreInfo-flex-reverse{height: min-content; padding: 0; flex-direction: column; justify-content: center;}
     .proyectosImg{height: 550px;}
     .proyectosInfo{width: 40%;}
-    .servicios-grid{display: flex;}
     .HerramientasDesarrollo{justify-content: center;}
     .form{width: 65%;}
-    .proyectos-flex{display: flex; justify-content: center;align-items: center;}
+    .proyectos-flex{display: flex; justify-content: unset; overflow: auto; align-items: center;}
     .proyectoCaja{width: 420px;}
     .sobreInfoTexto{width: 95%;}
     .sobrePerfil{display: grid; grid-template-columns: repeat(2,300px); img{object-fit: cover;} height: inherit;}
     .sobreInfo{display: flex;}
     .sigSeccion{font-size: 1.5em;}
+}
+
+@media screen and(min-width: 1400px){
+    .servicios-grid{display: flex; justify-content: center; align-items: center;}
 }

@@ -7,7 +7,7 @@ function ContenedorProyectos(){
         <ListadoProyectos
         img={"ProyectoIMG/TakkarIndumentaria.png"}
         titulo="Takkar - Indumentaria 2022"
-        descripcion="Takkar indumentaria muestra con orgullo la nueva collecion de prendas otoño
+        descripcion="Takkar indumentaria muestra con orgullo la nueva colección de prendas otoño
         - invierno."
         git="https://nicolascomba2001.github.io/Takkar2022/"
         direction="left"
@@ -16,8 +16,8 @@ function ContenedorProyectos(){
         <ListadoProyectos
         img={"ProyectoIMG/SportFinesClub.png"}
         titulo="Sport Fitness Club"
-        descripcion="Sport Club, uno de los mejores gimnasios de San Francisco, con una calificacion
-        de 4.3/5 estrellas de satisfaccion por parte de nuestros clientes."
+        descripcion="Sport Club, uno de los mejores gimnasios de San Francisco, con una calificación
+        de 4.3/5 estrellas de satisfacción por parte de nuestros clientes."
         git="https://nicolascomba2001.github.io/Gimnasio/"
         direction="right"
 
@@ -25,7 +25,7 @@ function ContenedorProyectos(){
         <ListadoProyectos
         img={"ProyectoIMG/MaterMuebles.png"}
         titulo="Mater - Muebles"
-        descripcion="Mater, muebleria de calidad y confianza para ambientar de la mejor manera y de la mejor madera, tu hogar. Sillones,
+        descripcion="Mater, mueblería de calidad y confianza para ambientar de la mejor manera y de la mejor madera, tu hogar. Sillones,
         camas, estantes, roperos, alacenas, y MAS..."
         git="https://nicolascomba2001.github.io/MaterMuebles/"
         direction="left"
@@ -34,7 +34,7 @@ function ContenedorProyectos(){
         <ListadoProyectos
         img={"ProyectoIMG/publicidad-emprendimientos.png"}
         titulo="Mic-Emprendimiento"
-        descripcion="Sube tus micro-emprendimientos / emprendimiento con el fin de crecer tus visitas organicas y aumentar tu negocio!. "
+        descripcion="Sube tus microemprendimientos / emprendimiento con el fin de crecer tus visitas orgánicas y aumentar tu negocio!"
         git=""
         direction="right"
 
@@ -85,7 +85,7 @@ export default function Proyectos(){
                 <img className='proyectosImg__img' src="ProyectoIMG/ProyectosImg.jpg" alt="Proyectos hechos por Nicolas, contamos con landings, portfolios, venta de tickets, y MAS!" />
                 <div className='proyectosInfo'>
                     <p className='proyectosInfo__titulo' data-aos="fade-right" data-aos-duration="700">MIS PROYECTOS</p>
-                    <p className='proyectosInfo__parrafo' data-aos="fade-left" data-aos-duration="700">Los proyectos son una muestra grafica, practica de todo lo que los desarrolladores front, piensan
+                    <p className='proyectosInfo__parrafo' data-aos="fade-left" data-aos-duration="700">Los proyectos son una muestra gráfica, practica de todo lo que los desarrolladores front, piensan
                                 y pueden mostrar de diferentes formas y estilos.
                     </p>
                    <BotonCambiante funcion={abrir} bandera={abrirProyectos}></BotonCambiante>
