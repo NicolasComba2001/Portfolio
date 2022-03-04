@@ -6,7 +6,7 @@ export default function Inicio() {
   return (
     <section className="inicio" id="inicio">
       <figure className="infoInicio">
-        <img className="infoInicio__img" src="inicioIMG/frontend-dev.jpg" alt="Ilustracion de desarrollo frontend, notebook, codigo y libreta de notas" />
+        <img className="infoInicio__img" src="frontend-dev.jpg" alt="Ilustracion de desarrollo frontend, notebook, codigo y libreta de notas" />
         <div className="infoIniciotexto">
           <em className="infoIniciotexto__sub" data-aos="fade-down" data-aos-duration="800" data-aos-delay="50">Hola! Soy NICOLAS,</em>
           <h1 className="infoIniciotexto__titulo" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100">FRONT END DEVELOPER</h1>
